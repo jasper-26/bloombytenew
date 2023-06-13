@@ -44,7 +44,7 @@
 
 .home-img img{
     /* position: absolute; */
-    width: 705px;
+    width: 700px;
     height: 500px;
     margin-top:28%;
     margin-left: -10%;
@@ -110,36 +110,36 @@
 .bg-1{
     height: 500px;
     width: 25%;
-    background-image: url(./images/interior-shot-racks-with-shirts-undershirts-jeans\ \(1\).jpg);
+    background-image: url(/images/interior-shot-racks-with-shirts-undershirts-jeans\ \(1\).jpg);
     background-position: center;
     background-size: cover;
     transition-delay: 0.6s;
 
 }
 .bg-1:hover{
-    background-image: linear-gradient(0deg, rgba(12, 31, 85, 0.7), rgba(14, 14, 107, 0.7)),url(./images/interior-shot-racks-with-shirts-undershirts-jeans\ \(1\).jpg);
+    background-image: linear-gradient(0deg, rgba(12, 31, 85, 0.7), rgba(14, 14, 107, 0.7)),url(/images/interior-shot-racks-with-shirts-undershirts-jeans\ \(1\).jpg);
 }
 .bg-2{
     height: 500px;
     width: 45%;
-    background-image: url(./images/supermarket-interior-with-shelves-full-various-products.jpg);
+    background-image: url(/images/supermarket-interior-with-shelves-full-various-products.jpg);
     background-position: center;
     background-size: cover;
     transition-delay: 0.6s;
 }
 .bg-2:hover{
-    background-image: linear-gradient(0deg, rgba(12, 31, 85, 0.7), rgba(14, 14, 107, 0.7)),url(./images/supermarket-interior-with-shelves-full-various-products.jpg);
+    background-image: linear-gradient(0deg, rgba(12, 31, 85, 0.7), rgba(14, 14, 107, 0.7)),url(/images/supermarket-interior-with-shelves-full-various-products.jpg);
 }
 .bg-3{
     height: 500px;
     width: 25%;
-    background-image: url(./images/warehouse-pharmacy.jpg);
+    background-image: url(/images/warehouse-pharmacy.jpg);
     background-position: center;
     background-size: cover;
     transition-delay: 0.6s;
 }
 .bg-3:hover{
-    background-image: linear-gradient(0deg, rgba(12, 31, 85, 0.7), rgba(14, 14, 107, 0.7)),url(./images/warehouse-pharmacy.jpg)}
+    background-image: linear-gradient(0deg, rgba(12, 31, 85, 0.7), rgba(14, 14, 107, 0.7)),url(/images/warehouse-pharmacy.jpg)}
 
 
 .item{
