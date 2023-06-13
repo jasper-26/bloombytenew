@@ -1,0 +1,637 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.home{
+    width: 100% !important;
+}
+
+.home-cont{
+    width: 100%;
+    margin: 0% !important;
+    padding: 0%;
+}
+.home-text{
+    padding: 0 10% 0 8% !important;
+}
+.home-text h1{
+    padding-top: 10%;
+}
+.home-text p{
+    padding-top: 5%;
+    color: rgba(161,169,177,255);
+    font-size: 16px;
+    padding-right: 28%;
+    text-align: justify;
+}
+
+
+
+
+
+
+.home-img{
+    width: 100%;
+    height: 105vh;
+    background-color: rgba(20,25,68,255);
+    padding: 0% !important;
+    margin-top: -11% !important;
+
+}
+
+.home-img img{
+    /* position: absolute; */
+    width: 705px;
+    height: 500px;
+    margin-top:28%;
+    margin-left: -10%;
+}
+.h-btn{
+    margin-top: 8%;
+    display: flex;
+    column-gap: 30px;
+}
+.btn-1{
+    border: none;
+    background-color: rgba(247,83,110,255);
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+}
+.btn-2{
+    border: none ;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: rgba(247,83,110,255);
+}
+.btn-2 i{
+    font-size: 12px;
+}
+
+.spec{
+    width: 100%;
+    padding: 5% 8% 3% 8%;
+}
+.spec-text{
+    padding: 0% !important;
+}
+.spec-text p{
+    padding-top: 1.5%;
+    color: rgba(161,169,177,255);
+    font-size: 16px;
+    padding-right: 28%;
+}
+
+
+.spec-arrow{
+   text-align: end;
+   margin-top: 5.5% !important;
+}
+.prev{
+    border: 3px solid black;
+    background-color: white;
+    padding: 7px 14px;
+    border-radius: 50%;
+}
+.next{
+    border: 3px solid black;
+    background-color: white;
+    padding: 7px 14px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+
+
+.bg-1{
+    height: 500px;
+    width: 25%;
+    background-image: url(./images/interior-shot-racks-with-shirts-undershirts-jeans\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    transition-delay: 0.6s;
+
+}
+.bg-1:hover{
+    background-image: linear-gradient(0deg, rgba(12, 31, 85, 0.7), rgba(14, 14, 107, 0.7)),url(./images/interior-shot-racks-with-shirts-undershirts-jeans\ \(1\).jpg);
+}
+.bg-2{
+    height: 500px;
+    width: 45%;
+    background-image: url(./images/supermarket-interior-with-shelves-full-various-products.jpg);
+    background-position: center;
+    background-size: cover;
+    transition-delay: 0.6s;
+}
+.bg-2:hover{
+    background-image: linear-gradient(0deg, rgba(12, 31, 85, 0.7), rgba(14, 14, 107, 0.7)),url(./images/supermarket-interior-with-shelves-full-various-products.jpg);
+}
+.bg-3{
+    height: 500px;
+    width: 25%;
+    background-image: url(./images/warehouse-pharmacy.jpg);
+    background-position: center;
+    background-size: cover;
+    transition-delay: 0.6s;
+}
+.bg-3:hover{
+    background-image: linear-gradient(0deg, rgba(12, 31, 85, 0.7), rgba(14, 14, 107, 0.7)),url(./images/warehouse-pharmacy.jpg)}
+
+
+.item{
+    border-radius: 15px;
+    width: 600px;
+    height:400px;
+    /* background-image: linear-gradient(to top, #AEC0CE, #ECECF2); */
+    overflow: hidden;
+    transition: 0.5s;
+    margin:10px;
+    scroll-snap-align: start;
+}
+
+.item-text{
+    display: none;
+    text-align: center;
+    padding-top: 18%;
+}
+.item:hover .item-text{
+    display: block;
+}
+.item-text h4{
+    font-size: 18px;
+    color: white;
+}
+.item-text p{
+    font-size: 10px;
+    color: white;
+    padding: 0 10%;
+}
+.item-text i{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 10px;
+}
+#list{
+    display: flex;
+    width:max-content;
+}
+.formList{
+    width: 100%;
+}
+#formList{
+    /* width:1280px; */
+    width: 100%;
+    max-width: 100%;
+    overflow: auto;
+    margin:10px auto 60px;
+    scroll-behavior: smooth;
+    scroll-snap-type: both;
+}
+#formList::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+
+.software{
+    padding: 5% 7% 0 7%;
+    background-color: rgba(20,25,68,255);
+    width: 100%;
+    height: 85vh;
+}
+
+.soft-con-1 h1{
+    font-size: 35px;
+    color: white;
+    padding-right: 18%;
+    line-height: 50px;
+}
+.soft-con-2{
+    padding-left: 15% !important;
+}
+.soft-con-2 p{
+    color: rgb(200, 200, 200);
+}
+.sof-btn{
+    margin-top: 6%;
+    display: flex;
+    column-gap: 30px;
+}
+.btn-4{
+    border: none ;
+    background-color: rgba(20,25,68,255);
+    padding: 10px 20px;
+    font-size: 14px;
+    color: rgba(247,83,110,255);
+}
+.btn-4 i{
+    font-size: 12px;
+}
+
+
+.items{
+    margin-top: 4% !important;
+    background-color: white;
+    padding: 5%;
+    gap: 30px;
+    border-radius: 20px;
+    height: 100%;
+    box-shadow: rgba(249,249,249,255) 0px 10px 3px;
+}
+.i-1{
+    background-color: rgba(229,229,229,255);
+    text-align: center;
+    padding: 15px 20px;
+    width: 31.5% !important;
+}
+
+.i-1 h4{
+    margin-bottom: 0 !important;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
+.business{
+    margin-top: 18% !important;
+    width: 100%;
+    padding: 0 7%;
+}
+.business h1{
+    text-align: center;
+    color: #141944;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.business h2{
+    border-top: 1px solid #141944;
+}
+.client-logo{
+    padding: 4% 0;
+    justify-content: center;
+    row-gap: 60px;
+    margin-left: 5% !important;
+}
+.client-logo-1 img{
+    width: 300px;
+    height: 100px;
+}
+
+.client-logo-2 img{
+    width: 300px;
+    height: 100px;
+}
+.client-logo-3 img{
+    width: 300px;
+    height: 100px;
+}
+
+.client-logo-4 img{
+    width: 300px;
+    height: 60px;
+    text-align: center;
+}
+.client-logo-5 img{
+    width: 320px;
+    height: 60px;
+}
+.client-logo-6 img{
+    width: 300px;
+    height: 60px;
+}
+.client-logo-7 img{
+    width: 300px;
+    height: 60px;
+}
+
+
+.request{
+    padding: 5% 7%;
+    background-color: rgba(240,242,255,255);
+    width: 100%;
+    margin: 0% !important;
+}
+.req-1{
+    padding-right: 15% !important;
+}
+.req-2{
+    padding-right: 10% !important;
+    padding-left: 7% !important;
+}
+
+
+.btn-5{
+    border: none ;
+    background-color:rgba(240,242,255,255);
+    padding: 10px 20px;
+    font-size: 14px;
+    color: rgba(247,83,110,255);
+}
+.btn-5 i{
+    font-size: 12px;
+}
+.req-1 h1{
+    font-size: 35px;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+@media (max-width:1200px){
+    .navbar-nav {
+        margin-left: 0% !important;
+    }
+    .item-2 {
+        width: 100%;
+        margin-left: 3%;
+    }
+    .home-text h1{
+        font-size: 30px;
+    }
+    .home-text p {
+        padding-right: 10%;
+    }
+    .home-img {
+        margin-top: -13% !important;
+    }
+    .home-img img {
+        height: 450px;
+        width: 550px;
+        margin-top: 32%;
+    }
+    .item {
+        border-radius: 15px;
+        width: 500px;
+    }
+    .soft-con-1 h1 {
+        font-size: 30px;
+    }
+    .soft-con-2 p {
+      font-size: 14px;
+    }
+    .i-1 {
+        width: 30.5% !important;
+    }
+    .req-1 {
+        padding-right: 10% !important;
+    }
+    .req-2 {
+        padding-right: 0% !important;
+    }
+}
+
+@media (max-width:992px){
+    .item-1 li,.item-2 li {
+        padding-left: 0px !important;
+    }
+    .item-2 {
+        width: 100%;
+        margin-left: 6%;
+    }
+    .navbar-nav a {
+        font-size: 15px;
+    }
+    .home-text h1{
+        font-size: 26px;
+    }
+    .home-text p {
+        padding-right: 0%;
+        font-size: 14px;
+    }
+    .home-img {
+        margin-top: -16% !important;
+        height: 95vh;
+    }
+    .home-img img {
+        height: 400px;
+        width: 455px;
+        margin-top: 38%;
+    }
+    .spec-text p {
+        padding-right: 0%;
+    }
+    .item {
+        border-radius: 15px;
+        width: 400px;
+    }
+    .soft-con-1 h1 {
+        padding-right: 0%;
+    }
+    .soft-con-2 {
+        padding-left: 10% !important;
+    }
+    .business {
+        margin-top: 25% !important;
+    }
+    .client-logo {
+        margin-left: 0% !important;
+    }
+    .client-logo-1 img,.client-logo-2 img,.client-logo-3 img {
+        width: 240px;
+        height: 70px;
+    }
+    .client-logo-4 img,.client-logo-6 img {
+        width: 240px;
+    }
+    .client-logo-5 img{
+        width: 270px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .client-logo-7 img {
+        width: 250px;
+    }
+    .req-1 {
+        padding-right: 5% !important;
+    }
+}
+@media (max-width:768px){
+    .home-text h1 {
+        padding-top: 0;
+        font-size: 35px;
+    }
+    .home-img {
+        margin-top: 18% !important;
+    }
+    .home-img img {
+        width: 100%;
+        height: 400px;
+        margin-top: -10%;
+        margin-left: 0%;
+        padding: 0 10% 0 8%;
+    }
+    .home-img {
+        height: 60vh;
+    }
+    .item {
+        width: 300px;
+        height: 300px;
+    }
+    .soft-con-1 h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .soft-con-2 p {
+        font-size: 12px;
+    }
+    .soft-con-2 {
+        padding-left: 3% !important;
+    }
+    .btn-1 {
+        font-size: 12px;
+    }
+    .i-1 {
+        width: 29.5% !important;
+        padding: 0px;
+
+    }
+    .i-1 h4 {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+    .client-logo {
+        margin-left: 0% !important;
+    }
+    .client-logo-1 img,.client-logo-2 img,.client-logo-3 img {
+        width: 160px;
+        height: 70px;
+    }
+    .client-logo-4 img,.client-logo-6 img {
+        width: 200px;
+    }
+    .client-logo-5 img{
+        width: 220px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .client-logo-7 img {
+        width: 200px;
+    }
+    .req-2 {
+        padding-left: 2% !important;
+    }
+    .item-2 li a {
+        color:#141944;
+    }
+    .item-2 {
+        margin-left: -5%;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:576px){
+    .home-text h1 {
+        font-size: 20px;
+    }
+    .home-img img {
+        width: 100%;
+        height: 250px;
+    }
+    .home-img {
+        margin-top: 25% !important;
+    }
+    .home-img {
+        height: 30vh;
+    }
+    .spec {
+        padding: 15% 8% 3% 8%;
+        margin: 0% !important;
+    }
+    .item {
+        width: 250px;
+        height: 300px;
+        margin-left: 20px !important;
+        margin-right: 0px !important;
+        scroll-snap-align: center;
+    }
+    .spec-arrow {
+        display: none;
+    }
+    .items {
+        margin-top: 12% !important;
+        padding-top: 10% !important;
+        row-gap:0% !important ;
+        height: fit-content;
+    }
+    .soft-con-1 h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .request {
+        padding: 10% 7%;
+    }
+    .i-1 {
+        width: 45% !important;
+        padding: 15px 20px;
+        max-height: 100%;
+        margin-top: 8% !important;
+    }
+    .i-1 h4 {
+        font-size: 15px;
+        margin-top: 12px;
+    }
+    .software {
+        height: 85vh;
+        padding: 10% 7% 0 7%;
+    }
+    .business {
+        margin-top: 55% !important;
+        margin-bottom: 8%;
+    }
+    .client-logo-1 img, .client-logo-2 img, .client-logo-3 img {
+        width: 128px;
+        height: 60px;
+    }
+    .client-logo-4 img, .client-logo-6 img {
+       width: 160px;
+       height: 50px;
+    }
+    .client-logo-5 img {
+        width: 170px;
+        height: 40px;
+        margin-left: -10px;
+    }
+    .client-logo-7 img {
+        width: 170px;
+        height: 50px;
+    }
+    .req-1 h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .req-2 p {
+        font-size: 14px;
+    }
+    .req-1,.req-2{
+        padding: 0 !important;
+    }
+    .footer-con{
+        display: block !important;
+    }
+    .foot-links{
+        margin:5% 0 0 3% !important;
+    }
+    .item-2 .btn-1 {
+        margin-left: 0px !important;
+    }
+    .item-2 {
+        margin-left: 0%;
+    }
+    .footer {
+        padding: 8% 7%;
+    }
+    .foot-logo img {
+        width: 200px;
+        height: 50px;
+    }
+}
