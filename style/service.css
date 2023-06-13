@@ -567,7 +567,7 @@
         padding: 15px;
     }
     .plan-hd h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
     .plan-hd h4 {
         font-size: 15px;
@@ -607,7 +607,7 @@
         height: fit-content;
     }
     .software {
-        height: 105vh;
+        height: 85vh;
         padding: 10% 7% 0 7%;
     }
     .super-img img {
