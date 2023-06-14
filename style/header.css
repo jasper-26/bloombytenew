@@ -139,6 +139,10 @@ dropdown {
     .navbar-nav a {
         font-size: 15px;
     }
+    .dropdown .dropbtn {
+        font-size: 15px;
+        padding-left: 20px;
+    }
 }
 @media (max-width:768px){
     .item-2 li a {
