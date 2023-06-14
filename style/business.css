@@ -474,7 +474,7 @@
     .plan {
         justify-content: start;
         width: 100% !important;
-        margin-top: 10%;
+        margin-top: 20% !important;
     }
     .plan-btn {
         margin: 20px 0 10px 0;
@@ -499,7 +499,7 @@
     .software {
         height: 55vh;
         padding: 10% 7% 0 7%;
-        margin-bottom: 20%;
+        margin-bottom: 50% !important;
     }
     .super-img img {
         width: 100%;
