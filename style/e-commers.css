@@ -539,6 +539,9 @@
     .plan-val {
         padding: 15px;
     }
+    .plan-val h6 {
+        font-size: 13px;
+    }
     .plan-hd {
         background-color: rgba(20,25,68,255);
         padding: 15px;
@@ -585,9 +588,9 @@
         height: fit-content;
     }
     .software {
-        height: 105vh;
+        height: 95vh;
         padding: 10% 7% 0 7%;
-        margin: 0 0 65% 0 !important;
+        margin: 0 0 55% 0 !important;
     }
     .super-img img {
         width: 100%;
