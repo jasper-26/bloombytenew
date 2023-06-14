@@ -455,6 +455,9 @@
     .plan-val {
         padding: 15px;
     }
+    .plan-val h6{
+       font-size: 13px;
+    }
     .plan-hd {
         background-color: rgba(20,25,68,255);
         padding: 15px;
@@ -471,7 +474,7 @@
     .plan {
         justify-content: start;
         width: 100% !important;
-        margin-top: 20%;
+        margin-top: 50%;
     }
     .plan-btn {
         margin: 20px 0 10px 0;
