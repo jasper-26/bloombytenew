@@ -471,6 +471,7 @@
     .plan {
         justify-content: start;
         width: 100% !important;
+        margin-top: 10%;
     }
     .plan-btn {
         margin: 20px 0 10px 0;
