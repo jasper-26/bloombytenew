@@ -386,7 +386,54 @@ table tr th h1{
 }
 
 
+@media (max-width:576px){
+    .con-head p {
+        padding: 0%;
+        font-size: 13px;
+    }
 
+    table tr th h1 {
+        font-size: 20px;
+        padding: 50px 0px 30px 0px !important;
+        margin: 0 10px 0 10px;
+        width: 100%;
+    }
+    table tr td {
+        padding: 18px 0px 0 10px !important;
+    }
+    table tr td h5 {
+        width: 100px;
+        font-size: 12px;
+        color: rgba(110,109,132,255);
+        overflow: hidden;
+    }
+    .h-2 h1 {
+        width: 100px;
+        font-size: 14px !important;
+        padding: 20px 0px 0px 10px !important;
+    }
+    .h-2 h4 {
+        font-size: 14px;
+        color: white;
+        padding: 0px 0px 20px 10px !important;
+    }
+    .h-2 h4 span{
+        font-size: 10px;
+    }
+    .plan-table-2 table tr td {
+        padding: 18px 0px 0 10px !important;
+    }
+    .req-1 h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .req-2 p {
+        font-size: 14px;
+    }
+    .req-1,.req-2{
+        padding: 0 !important;
+    }
+}
 
 
 
